@@ -70,26 +70,79 @@ console.log(nativeClone)
 
 //A shallow copy creates a new outer container, 
 // but nested structures still point to the original reference location.
-const original = { name: "Alice", details: { age: 25 } };
+const original2 = { name: "Alice", details: { age: 25 } };
 
 // Creating a shallow copy using the spread operator
-const shallowCopy = { ...original };
+const shallowCopy = { ...original2 };
 
 // 1. Modifying a top-level primitive property
 shallowCopy.name = "Bob";
-console.log(original.name); // "Alice" (Unchanged)
+console.log(original2.name); // "Alice" (Unchanged)
 
 // 2. Modifying a nested object property
 shallowCopy.details.age = 30;
-console.log(original.details.age); // 30 (Changed! Both share the same reference)
+console.log(original2.details.age); // 30 (Changed! Both share the same reference)
 
 //A deep copy breaks all reference connections to the original object,
 //  meaning no modifications leak back.
-const original = { name: "Alice", details: { age: 25 } };
+const original3 = { name: "Alice", details: { age: 25 } };
 
 // Creating a deep copy using modern built-in structuredClone()
-const deepCopy = structuredClone(original);
+const deepCopy = structuredClone(original3);
 
 // Modifying a nested object property
 deepCopy.details.age = 30;
-console.log(original.details.age); // 25 (Unchanged! They are entirely independent)
+console.log(original3.details.age); // 25 (Unchanged! They are entirely independent)
+//Behavior: Both shallow copy and deep copy behave identically
+//  for top-level primitive values (strings, numbers, booleans).
+const original4 = { status: "active", details:{count: 1 }};
+const shallowCopy1 = { ...original4 };
+const deepCopy1 = structuredClone(original4);
+
+shallowCopy1.status = "paused";
+deepCopy1.details.count = 9;
+deepCopy1.details.status="freeze"
+console.log("Original4: ", original4);
+console.log("Shallow:  ", shallowCopy1);
+console.log(original4.details.status)
+
+//Practice for...in loop with objects.
+
+let user1={name:"myra",age:76, city:"hyd"}
+for (const keys in user1){
+    console.log(keys)
+}
+
+let now= new Date()
+console.log(now.getMonth())
+console.log(now.getDay())
+
+var a= 10;
+var b= 20;
+console.log(`hello${a}and ${b}adding then the result is${a+b}`);
+// 1. Define your dynamic data object
+const user4 = {
+  name: "Alice",
+  role: "Developer",
+  stats: { items: 5 }
+};
+
+// 2. Use backticks to inject properties directly
+const message = `Hello ${user4.name}, your role is ${user4.role}. You have ${user4.stats.items} tasks.`;
+
+console.log(message);
+// Output: Hello Alice, your role is Developer. You have 5 tasks.
+
+console.log(Math.floor(4.6))
+console.log(Math.round(3.6))
+console.log(Math.ceil(10.2))
+console.log(Math.random())
+
+const inputstring= "javaScript"
+console.log(inputstring.length);
+console.log(inputstring.slice(0,4))
+console.log(inputstring.substring(4))
+console.log(inputstring)
+let text = "Cats are cool, Cats are clean.";
+console.log(text.replace("Cats", "Dogs"));   // Output: "Dogs are cool. Cats are clean."
+console.log(text.replace(/Cats/g, "Dogs")); // Output: "Dogs are cool. Dogs are clean."
