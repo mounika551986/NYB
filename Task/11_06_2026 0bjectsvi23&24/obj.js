@@ -31,5 +31,5 @@ let deepCopy = structuredClone(original2);
 
 deepCopy.details.age = 30;
 console.log(original2.details.age); // 25 (Original is safe!)
-
+console.log(original2)
 
