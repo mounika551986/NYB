@@ -34,4 +34,26 @@ parent2.addEventListener('click', () => {
 child2.addEventListener('click', () => {
   console.log('2. Child2 Clicked (Target/Capturing Phase)');
 }, true);
+const grandparent1=document.getElementById("grandparent1")
+const parent3=document.getElementById("parent3")
+const child3 =document.getElementById("child3")
+grandparent1.addEventListener("click",()=>{
+    console.log("grandparent3 clicked")
+},true)
+parent3.addEventListener("click",()=>{
+    console.log("parent3 clicked")
+},true);
+child3.addEventListener("click",()=>{
+    console.log("child3 clicked")
+},true);
+// Watch the parent list container
+const shoppingList = document.querySelector('#shopping-list');
 
+shoppingList.addEventListener('click', function(event) {
+  // Check if the clicked element is a delete button
+  if (event.target.classList.contains('delete-btn')) {
+    // Remove the parent <li> of that specific button
+    event.target.parentElement.remove();
+  }
+});
+console.log(document.body)
