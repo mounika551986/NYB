@@ -34,3 +34,4 @@ parent2.addEventListener('click', () => {
 child2.addEventListener('click', () => {
   console.log('2. Child2 Clicked (Target/Capturing Phase)');
 }, true);
+
