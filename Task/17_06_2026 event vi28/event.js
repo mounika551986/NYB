@@ -57,3 +57,7 @@ shoppingList.addEventListener('click', function(event) {
   }
 });
 console.log(document.body)
+
+// event capturing travels from parent element to child element using capture true
+//event delegation event will be added to the parent element 
+// and event will be used by all the child elements
