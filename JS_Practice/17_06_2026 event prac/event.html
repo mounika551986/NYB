@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+ <div id="parent">
+  <button id="child">Click Me</button>
+</div>
+
+<div id="grandparent">
+  <div id="parent1">
+    <button1 id="child1">Click Me</button1>
+  </div>
+</div>
+<ul id ="list">
+  <li>one</li>
+  <li>Two</li>
+  <li>Three</li>
+</ul>
+<div class="menu-container">
+  <!-- Controls to simulate dynamic updates -->
+  <button id="add-item-btn">Add New Menu Item</button>
+
+  <!-- The static parent element for event delegation -->
+  <ul id="dynamic-menu">
+    <li class="menu-item" data-action="home">
+      <span>🏠 Home</span>
+      <button class="delete-btn">✕</button>
+    </li>
+    <li class="menu-item" data-action="profile">
+      <span>👤 Profile</span>
+      <button class="delete-btn">✕</button>
+    </li>
+  </ul>
+  <ul id="menu1">
+  <li data-page="home">Home</li>
+  <li data-page="about">About</li>
+  <li data-page="contact">Contact</li>
+</ul>
+
+<button id="addlog">Add log Menu1</button>
+
+</div>
+    <script src="event.js"></script>
+</body>
+</html>

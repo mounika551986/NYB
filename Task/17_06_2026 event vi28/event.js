@@ -47,17 +47,46 @@ child3.addEventListener("click",()=>{
     console.log("child3 clicked")
 },true);
 // Watch the parent list container
-const shoppingList = document.querySelector('#shopping-list');
 
-shoppingList.addEventListener('click', function(event) {
-  // Check if the clicked element is a delete button
-  if (event.target.classList.contains('delete-btn')) {
-    // Remove the parent <li> of that specific button
-    event.target.parentElement.remove();
-  }
-});
-console.log(document.body)
 
 // event capturing travels from parent element to child element using capture true
 //event delegation event will be added to the parent element 
 // and event will be used by all the child elements
+
+let list=document.getElementById("list")
+function listclick(){
+    console.log("clicked")
+}
+list.addEventListener("click",function(e){
+console.log(e.target)
+});
+const menu = document.getElementById("menu");
+
+// Handle all menu clicks
+menu.addEventListener("click", (event) => {
+  if (event.target.tagName === "LI") {
+    console.log("Navigate to:", event.target.dataset.page);
+  }
+});
+
+// Dynamically add menu item
+document.getElementById("addlog").addEventListener("click", () => {
+  const li = document.createElement("li");
+  li.textContent = "log";
+  li.dataset.page = "vlog";
+
+  menu.appendChild(li);
+});
+//Compare the execution flow of bubbling and capturing.
+const outer = document.querySelector('.outer');
+const btn = document.querySelector('.btn');
+
+// 1. Capturing Phase (fires first, top-down)
+outer.addEventListener('click', () => {
+  console.log('Outer Div - Capturing Phase');
+}, true); // Setting to true enables capture
+
+// 2. Bubbling Phase (fires second, bottom-up)
+btn.addEventListener('click', () => {
+  console.log('Button Clicked');
+}); // Omitted third parameter defaults to false (bubbling)
