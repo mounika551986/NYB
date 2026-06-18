@@ -77,16 +77,3 @@ document.getElementById("addlog").addEventListener("click", () => {
 
   menu.appendChild(li);
 });
-//Compare the execution flow of bubbling and capturing.
-const outer = document.querySelector('.outer');
-const btn = document.querySelector('.btn');
-
-// 1. Capturing Phase (fires first, top-down)
-outer.addEventListener('click', () => {
-  console.log('Outer Div - Capturing Phase');
-}, true); // Setting to true enables capture
-
-// 2. Bubbling Phase (fires second, bottom-up)
-btn.addEventListener('click', () => {
-  console.log('Button Clicked');
-}); // Omitted third parameter defaults to false (bubbling)
