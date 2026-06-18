@@ -114,3 +114,23 @@ function shoot() {
         canShoot = true;
     }, 500);
 }
+//Document real-world use cases of callbacks, throttling, and debouncing.
+//A callback is a function passed into another function as an argument, which is then executed after 
+// some operation has been completed. They are the foundational building block for async JavaScript.
+
+//Event Listeners: Executing a specific block of code only when a user clicks a button
+//  (e.g., button.addEventListener('click', () => { ... })).
+
+//Data Fetching: Processing an API response or database query 
+// only after the data has successfully returned from the server.
+//Timers: Executing a function after a specified delay via setTimeout or setInterval.
+
+//2. Throttling
+//Scroll Events:
+//Window Resizing:
+//Button Spam Prevention:
+
+//3. Debouncing
+//Search / Autocomplete Bars
+//Autosave Features:
+//Window Resizing (Final State)
