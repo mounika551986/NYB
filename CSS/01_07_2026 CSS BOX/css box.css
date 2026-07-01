@@ -1,0 +1,45 @@
+div{
+
+width:300px;
+height:150px;
+
+background-color: blue;
+
+}
+div{
+
+width:200px;
+
+padding:20px; 
+background-color: green;
+
+border:5px solid black;
+
+box-sizing:border-box;
+
+}
+p{
+
+margin:20px;
+
+}
+div{
+
+width:200px;
+
+height:80px;
+
+border:2px solid red;
+overflow:visible;
+overflow:hidden;
+overflow:scroll;
+overflow:auto;
+}
+
+button{
+
+border:2px solid black;
+
+outline:3px solid red;
+
+}
