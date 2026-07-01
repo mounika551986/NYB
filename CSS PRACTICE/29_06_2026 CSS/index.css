@@ -1,0 +1,38 @@
+h2 {
+    color: blue;
+}
+
+p1 {
+    color: green;
+}
+#title {
+    color: red;
+    text-align: center;
+}
+.heading {
+    color: purple;
+    background-color: lightyellow;
+}
+* {
+    font-family: Arial;
+    margin: 10px;
+}
+h5, h6 {
+    color: pink;
+}
+div p {
+    color: red;
+}
+div > p {
+    color: blue;
+}
+h4+p{
+    color:aqua
+}
+h6 ~ p {
+    color: green;
+}
+input[type="text"] {
+    background-color: navy;
+}
+
