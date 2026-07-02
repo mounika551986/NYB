@@ -1,0 +1,99 @@
+.box{
+    width:300px;
+    height:150px;
+    background:skyblue;
+    margin:20px auto;
+    text-align:center;
+    line-height:150px;
+    font-size:24px;
+}
+
+/* Mobile */
+@media (max-width:480px){
+    .box{
+        background:orange;
+    }
+}
+
+/* Tablet */
+@media (min-width:481px) and (max-width:768px){
+    .box{
+        background:lightgreen;
+    }
+}
+
+/* Laptop */
+@media (min-width:769px) and (max-width:992px){
+    .box{
+        background:pink;
+    }
+}
+
+/* Desktop */
+@media (min-width:993px){
+    .box{
+        background:red;
+    }
+}
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    background:pink;
+    color:black;
+    padding:20px;
+}
+
+/* Mobile */
+@media (max-width:600px){
+
+.navbar{
+    flex-direction:column;
+    text-align:center;
+}
+
+.navbar div{
+    padding:10px;
+}
+
+}
+
+.gallery{
+
+display:grid;
+grid-template-rows:repeat(4,1fr);
+gap:15px;
+
+}
+
+.card{
+
+background:lightblue;
+padding:30px;
+text-align:center;
+
+}
+
+/* Tablet */
+@media (max-width:768px){
+
+.gallery{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+/* Mobile */
+
+@media (max-width:480px){
+
+.gallery{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+
