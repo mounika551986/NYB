@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  background-color: aqua;
+  font-family: Arial, sans-serif;
+}
+.h1{
+  width: 32px;
+  background: black;
+  text-decoration: dotted;
+  text-align: center;
+}
