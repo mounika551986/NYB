@@ -1,5 +1,5 @@
-import Footer from "../../fragments 07_07_2026/Footer";
-import Header from "../../fragments 07_07_2026/Header";
+import Footer from "../../components/fragments 07_07_2026/Footer";
+import Header from "../../components/fragments 07_07_2026/Header";
 
 function Fragments() {
     return (

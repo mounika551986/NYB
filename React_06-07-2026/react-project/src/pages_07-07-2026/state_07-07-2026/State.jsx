@@ -1,6 +1,6 @@
-import React from "react";
-import Footer from "../../statemanagement/Footer";
-import Header from "../../statemanagement/Header";
+import Footer from "../../components/statemanagement/Footer";
+import Header from "../../components/statemanagement/Header";
+
 
 function State(){
     return(
@@ -11,3 +11,4 @@ function State(){
     )
 }
 export default State;
+

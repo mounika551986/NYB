@@ -1,11 +1,13 @@
-import Footer from "../../props/Footer";
-import Header from "../../props/Header";
+import Footer from "../../components/components 07_07_2026/Footer";
+import Header from "../../components/components 07_07_2026/Header";
+
 
 function Props() {
     return (
         <>
         <Header/>
         <Footer/>
+        
           
         </>
     );
