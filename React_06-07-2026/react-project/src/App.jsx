@@ -8,6 +8,13 @@ import PropsStatePage from "./pages_07-07-2026/propsstate_08-07-2026/PropsStateP
 import ParentChildPage from "./pages_07-07-2026/parentchildprops/ParentChildPage";
 import ChildToParentPage from "./pages_07-07-2026/childtoparent_08-07-2026/ChildParentPage";
 import ChildToChildPage from "./pages_07-07-2026/childtochild_08-07-2026/ChildToChildPages";
+import LocalState from "./components/localstate_09-07-2026/LocalState";
+import ContextApiPage from "./pages_07-07-2026/contextapipage_09-07-2026/ContextApiPage";
+
+
+
+
+
 function App() {
     return (
         <BrowserRouter>
@@ -21,8 +28,8 @@ function App() {
                 <Route path="/parentchildprops" element={<ParentChildPage />} />
   <Route path="/childparentprops" element={<ChildToParentPage />} />
   <Route path="/childtochild" element={<ChildToChildPage/>} />
-    
-
+      <Route path="/localstate" element={<LocalState/>} />
+      <Route path="/contextapi" element={<ContextApiPage/>} />
 
             </Routes>
         </BrowserRouter>
