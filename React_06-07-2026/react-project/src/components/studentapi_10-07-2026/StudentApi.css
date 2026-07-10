@@ -1,0 +1,23 @@
+.container{
+    width:80%;
+    margin:auto;
+    text-align:center;
+}
+
+.card{
+    border:1px solid gray;
+    margin:15px;
+    padding:10px;
+    border-radius:8px;
+}
+
+button{
+    margin:5px;
+    padding:8px 15px;
+}
+
+input{
+    padding:8px;
+    width:250px;
+    margin-bottom:20px;
+}

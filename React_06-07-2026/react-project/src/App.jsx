@@ -9,7 +9,11 @@ import ParentChildPage from "./pages_07-07-2026/parentchildprops/ParentChildPage
 import ChildToParentPage from "./pages_07-07-2026/childtoparent_08-07-2026/ChildParentPage";
 import ChildToChildPage from "./pages_07-07-2026/childtochild_08-07-2026/ChildToChildPages";
 import LocalState from "./components/localstate_09-07-2026/LocalState";
-import ContextApiPage from "./pages_07-07-2026/contextapipage_09-07-2026/ContextApiPage";
+import ApiPage from "./pages_07-07-2026/api_10-07-2026/ApiPage";
+import AxiosPage from "./pages_07-07-2026/axios_10-07-2026/AxiosPage";
+import ASyncApiPage from "./pages_07-07-2026/asyncapi_10-07-2026/AsyncApiPage";
+import StudentApiPage from "./pages_07-07-2026/studentapi_10-07-2026/StudentApiPage";
+
 
 
 
@@ -29,7 +33,11 @@ function App() {
   <Route path="/childparentprops" element={<ChildToParentPage />} />
   <Route path="/childtochild" element={<ChildToChildPage/>} />
       <Route path="/localstate" element={<LocalState/>} />
-      <Route path="/contextapi" element={<ContextApiPage/>} />
+            <Route path="/apipractice" element={<ApiPage/>} />
+ <Route path="/axios" element={<AxiosPage/>} />
+ <Route path="/async" element={<ASyncApiPage/>} />
+ <Route path="/apistudent" element={<StudentApiPage/>} />
+
 
             </Routes>
         </BrowserRouter>
