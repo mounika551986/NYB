@@ -13,10 +13,10 @@ import ApiPage from "./pages_07-07-2026/api_10-07-2026/ApiPage";
 import AxiosPage from "./pages_07-07-2026/axios_10-07-2026/AxiosPage";
 import ASyncApiPage from "./pages_07-07-2026/asyncapi_10-07-2026/AsyncApiPage";
 import StudentApiPage from "./pages_07-07-2026/studentapi_10-07-2026/StudentApiPage";
-
-
-
-
+import GlobalStatePage from "./pages_07-07-2026/globalstatepage_13-07-2026/GlobalStatePage";
+import ThemeContextPage from "./pages_07-07-2026/themecontextpage_13-07-2026/ThemeContextPage";
+import LoginPage from "./pages_07-07-2026/authenticationpage_13-07-2026/LoginPage";
+import ProviderConsumerPage from "./pages_07-07-2026/providerconsumerpage_13-07-2026/ProviderConsumerPage";
 
 
 function App() {
@@ -37,6 +37,10 @@ function App() {
  <Route path="/axios" element={<AxiosPage/>} />
  <Route path="/async" element={<ASyncApiPage/>} />
  <Route path="/apistudent" element={<StudentApiPage/>} />
+ <Route path="/globalstate" element={<GlobalStatePage/>} />
+  <Route path="/themecontext" element={<ThemeContextPage/>} />
+  <Route path="/login" element={<LoginPage/>} />
+  <Route path="/providerconsumer" element={<ProviderConsumerPage/>} />
 
 
             </Routes>
