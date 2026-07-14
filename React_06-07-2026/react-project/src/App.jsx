@@ -17,6 +17,8 @@ import GlobalStatePage from "./pages_07-07-2026/globalstatepage_13-07-2026/Globa
 import ThemeContextPage from "./pages_07-07-2026/themecontextpage_13-07-2026/ThemeContextPage";
 import LoginPage from "./pages_07-07-2026/authenticationpage_13-07-2026/LoginPage";
 import ProviderConsumerPage from "./pages_07-07-2026/providerconsumerpage_13-07-2026/ProviderConsumerPage";
+import ReduxPage from "./pages_07-07-2026/reduxpage_14-07-2026/ReduxPage";
+import StudentPage from "./pages_07-07-2026/reduxpage_14-07-2026/StudentPage";
 
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
   <Route path="/themecontext" element={<ThemeContextPage/>} />
   <Route path="/login" element={<LoginPage/>} />
   <Route path="/providerconsumer" element={<ProviderConsumerPage/>} />
+  <Route path="/redux" element={<ReduxPage/>} />
+  <Route path="/student" element={<StudentPage/>} />
 
 
             </Routes>
