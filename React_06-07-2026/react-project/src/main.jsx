@@ -3,11 +3,16 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import { Provider } from "react-redux";
 import store from "./app/reduxstorereducer_14-07-2026/Store";
+import { ThemeProvider } from "./pages_07-07-2026/themecontextpage_16-07-2026/ThemeContext";
+
 
 // import "./App.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
     <Provider store={store}>
-  <App />
+      <ThemeProvider>
+         <App />  
+      </ThemeProvider>
+ 
     </Provider>
 
 );

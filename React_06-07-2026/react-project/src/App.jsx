@@ -27,6 +27,16 @@ import FormPage from "./pages_07-07-2026/reducerpage_15-07-2026/FormPage";
 import ShoppingCartPage from "./pages_07-07-2026/reducerpage_15-07-2026/ShoppingCartPage";
 import CounterPage from "./pages_07-07-2026/reducerpage_15-07-2026/Counterpage";
 import TodoListPage from "./pages_07-07-2026/reducerpage_15-07-2026/TodoListPage";
+import ThemeContext from "./pages_07-07-2026/themecontextpage_16-07-2026/ThemeContext";
+import StudentMarks from "./components/reducer_16-07-2026/StudentMarks";
+import CityPage from "./pages_07-07-2026/redux_16-07-2026/CityPage";
+import CitySelector from "./components/redux_16-07-2026/CitySelector";
+
+
+import StudentMPage from "./pages_07-07-2026/minitask_16-07-2026/StudentMPage";
+
+
+
 
 
 function App() {
@@ -61,6 +71,13 @@ function App() {
     <Route path="/shoppingcart" element={<ShoppingCartPage/>} />
     <Route path="/counterpage" element={<CounterPage/>} />
     <Route path="/todolist" element={<TodoListPage/>} />
+        <Route path="/themecontext" element={<ThemeContext/>}/>
+                <Route path="/studentmarks" element={<StudentMarks/>}/>
+                <Route path="/city"element={<CitySelector/>}/>
+                 <Route path="studentpage"element={<StudentMPage/>}/>
+
+
+
 
 
 
