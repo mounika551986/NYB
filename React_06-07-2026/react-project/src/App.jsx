@@ -19,6 +19,14 @@ import LoginPage from "./pages_07-07-2026/authenticationpage_13-07-2026/LoginPag
 import ProviderConsumerPage from "./pages_07-07-2026/providerconsumerpage_13-07-2026/ProviderConsumerPage";
 import ReduxPage from "./pages_07-07-2026/reduxpage_14-07-2026/ReduxPage";
 import StudentPage from "./pages_07-07-2026/reduxpage_14-07-2026/StudentPage";
+import ReducerPage from "./pages_07-07-2026/reducerpage_15-07-2026/ReducerPage";
+import StudentMarksPage from "./pages_07-07-2026/reducerpage_15-07-2026/StudentMarksPage";
+import DispatchPage from "./pages_07-07-2026/reducerpage_15-07-2026/DispatchPage";
+import StudentReducerPage from "./pages_07-07-2026/reducerpage_15-07-2026/StudentReducerPage";
+import FormPage from "./pages_07-07-2026/reducerpage_15-07-2026/FormPage";
+import ShoppingCartPage from "./pages_07-07-2026/reducerpage_15-07-2026/ShoppingCartPage";
+import CounterPage from "./pages_07-07-2026/reducerpage_15-07-2026/Counterpage";
+import TodoListPage from "./pages_07-07-2026/reducerpage_15-07-2026/TodoListPage";
 
 
 function App() {
@@ -45,6 +53,15 @@ function App() {
   <Route path="/providerconsumer" element={<ProviderConsumerPage/>} />
   <Route path="/redux" element={<ReduxPage/>} />
   <Route path="/student" element={<StudentPage/>} />
+  <Route path="/reducer" element={<ReducerPage/>} />
+  <Route path="/marks" element={<StudentMarksPage/>} />
+  <Route path="/dispatch" element={<DispatchPage/>} />
+  <Route path="/studentreducer" element={<StudentReducerPage/>} />
+  <Route path="/form" element={<FormPage/>} />
+    <Route path="/shoppingcart" element={<ShoppingCartPage/>} />
+    <Route path="/counterpage" element={<CounterPage/>} />
+    <Route path="/todolist" element={<TodoListPage/>} />
+
 
 
             </Routes>
