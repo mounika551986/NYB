@@ -29,11 +29,16 @@ import CounterPage from "./pages_07-07-2026/reducerpage_15-07-2026/Counterpage";
 import TodoListPage from "./pages_07-07-2026/reducerpage_15-07-2026/TodoListPage";
 import ThemeContext from "./pages_07-07-2026/themecontextpage_16-07-2026/ThemeContext";
 import StudentMarks from "./components/reducer_16-07-2026/StudentMarks";
-import CityPage from "./pages_07-07-2026/redux_16-07-2026/CityPage";
 import CitySelector from "./components/redux_16-07-2026/CitySelector";
 
 
 import StudentMPage from "./pages_07-07-2026/minitask_16-07-2026/StudentMPage";
+
+import HomePage from "./pages_07-07-2026/EmployeePage_17-07-2026/HomePage";
+import AddEmployee from "./pages_07-07-2026/EmployeePage_17-07-2026/AddEmployee";
+
+
+
 
 
 
@@ -75,7 +80,11 @@ function App() {
                 <Route path="/studentmarks" element={<StudentMarks/>}/>
                 <Route path="/city"element={<CitySelector/>}/>
                  <Route path="studentpage"element={<StudentMPage/>}/>
+                 <Route path="studentpage"element={<StudentMPage/>}/>
+                 <Route path="homepage"element={<HomePage/>}/>
+                 <Route path="addEmployee"element={<AddEmployee/>}/>
 
+                 
 
 
 
