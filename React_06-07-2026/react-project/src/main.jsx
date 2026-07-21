@@ -11,13 +11,14 @@ import EmployeeProvider from "./context_17-07-2026/EmployeeContext";
 ReactDOM.createRoot(document.getElementById("root")).render(
     <Provider store={store}>
       <ThemeProvider>
+        
         <EmployeeProvider>
  <App />  
         </EmployeeProvider>
         
       </ThemeProvider>
- 
     </Provider>
-
 );
+        
+
 

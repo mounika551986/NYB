@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, UNSAFE_getPatchRoutesOnNavigationFunction } from "react-router-dom";
 import Components from "./pages_07-07-2026/Components";
 import Props from "./pages_07-07-2026/props_07-07-2026/Props";
 import State from "./pages_07-07-2026/state_07-07-2026/State";
@@ -30,18 +30,31 @@ import TodoListPage from "./pages_07-07-2026/reducerpage_15-07-2026/TodoListPage
 import ThemeContext from "./pages_07-07-2026/themecontextpage_16-07-2026/ThemeContext";
 import StudentMarks from "./components/reducer_16-07-2026/StudentMarks";
 import CitySelector from "./components/redux_16-07-2026/CitySelector";
-
-
 import StudentMPage from "./pages_07-07-2026/minitask_16-07-2026/StudentMPage";
-
 import HomePage from "./pages_07-07-2026/EmployeePage_17-07-2026/HomePage";
 import AddEmployee from "./pages_07-07-2026/EmployeePage_17-07-2026/AddEmployee";
-
-
-
-
-
-
+import Greeting from "./conditionalrendendering_20-07-2026/Greeting";
+import TernaryOperator from "./conditionalrendendering_20-07-2026/TernaryOperator";
+import Logical from "./conditionalrendendering_20-07-2026/Logical";
+import LogicalOr from "./conditionalrendendering_20-07-2026/LogicalOr";
+import ElementVariables from "./conditionalrendendering_20-07-2026/ElementVariables";
+import RealProblem from "./conditionalrendendering_20-07-2026/RealProblem";
+import Switch from "./conditionalrendendering_20-07-2026/Switch";
+import ShowHide from "./conditionalrendendering_20-07-2026/ShowHide";
+import RoleBased from "./conditionalrendendering_20-07-2026/RoleBased";
+import Authentication from "./conditionalrendendering_20-07-2026/Authentication";
+import LoadingExample from "./conditionalrendendering_20-07-2026/LoadingExample";
+import EmptyState from "./conditionalrendendering_20-07-2026/EmptyState";
+import Dashboard from "./minitask_20-07-2026/Dashboard";
+import DashboardSwitch from "./minitask_20-07-2026/DashboardSwitch";
+import LoginLogout from "./minitask_20-07-2026/LoginLogout";
+import WithoutDependency from "./components/useeffect_21-07-2026/WithoutDependency";
+import EmptyArray from "./components/useeffect_21-07-2026/EmptyArray";
+import SingleDependency from "./components/useeffect_21-07-2026/SingleDependency";
+import MultipleDependency from "./components/useeffect_21-07-2026/MultipleDependency";
+import FetchDataDependency from "./components/useeffect_21-07-2026/FetchDataDependency";
+import Cleanup from "./components/useeffect_21-07-2026/Cleanup";
+import TimeCleaner from "./components/useeffect_21-07-2026/TimeCleaner";
 
 
 function App() {
@@ -83,11 +96,28 @@ function App() {
                  <Route path="studentpage"element={<StudentMPage/>}/>
                  <Route path="homepage"element={<HomePage/>}/>
                  <Route path="addEmployee"element={<AddEmployee/>}/>
-
-                 
-
-
-
+ <Route path="greeting"element={<Greeting/>}/>
+  <Route path="TernaryOperator"element={<TernaryOperator/>}/>
+  <Route path="Logical"element={<Logical/>}/>
+  <Route path="LogicalOr"element={<LogicalOr/>}/>
+  <Route path="ElementVariables"element={<ElementVariables/>}/>
+  <Route path="RealProblem"element={<RealProblem/>}/>
+  <Route path="Switch"element={<Switch/>}/>
+  <Route path="ShowHide"element={<ShowHide/>}/>
+  <Route path="RoleBased"element={<RoleBased/>}/>
+  <Route path="Authentication"element={<Authentication/>}/>
+  <Route path="LoadingExample"element={<LoadingExample/>}/>
+  <Route path="EmptyState"element={<EmptyState/>}/>
+  <Route path="Dashboard"element={<Dashboard/>}/>
+  <Route path="DashboardSwitch"element={<DashboardSwitch/>}/>
+  <Route path="LoginLogout"element={<LoginLogout/>}/>
+  <Route path="WithoutDependency"element={<WithoutDependency/>}/>
+  <Route path="EmptyArray"element={<EmptyArray/>}/>
+  <Route path="SingleDependency"element={<SingleDependency/>}/>
+  <Route path="MultipleDependency"element={<MultipleDependency/>}/>
+  <Route path="FetchDataDependency"element={<FetchDataDependency/>}/>
+  <Route path="Cleanup"element={<Cleanup/>}/>
+  <Route path="TimeCleaner"element={<TimeCleaner/>}/>
 
 
             </Routes>
