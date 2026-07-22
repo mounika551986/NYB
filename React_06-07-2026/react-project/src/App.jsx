@@ -66,6 +66,22 @@ import RealExample from "./components/useeffect_21-07-2026/RealExample";
 import Map from "./components/useeffect_21-07-2026/Map";
 import FilterMap from "./components/useeffect_21-07-2026/FilterMap";
 import NotesApp from "./components/useeffect_21-07-2026/NoteApp";
+import DynamicForm from "./components/dynamicform_22-07-2026/DynamicForm";
+import AddSkill from "./components/dynamicform_22-07-2026/AddSkill";
+import RemoveSkill from "./components/dynamicform_22-07-2026/RemoveSkill";
+import TextField from "./components/dynamicform_22-07-2026/TextField";
+import TextArea from "./components/dynamicform_22-07-2026/TextArea";
+import Dropdown from "./components/dynamicform_22-07-2026/Dropdown";
+import RadioButtons from "./components/dynamicform_22-07-2026/RadioButtons";
+import SingleCheckbox from "./components/dynamicform_22-07-2026/SingleCheckbox";
+import MultipleCheckbox from "./components/dynamicform_22-07-2026/MultipleCheckbox";
+import FileInput from "./components/dynamicform_22-07-2026/FileInput";
+import FormExample from "./components/dynamicform_22-07-2026/FormExample";
+import FormReal from "./components/dynamicform_22-07-2026/FormReal";
+import FormErrors from "./components/dynamicform_22-07-2026/FormErrors";
+import SingleHandler from "./components/dynamicform_22-07-2026/SingleHandler";
+import RegistrationPage from "./components/dynamicform_22-07-2026/minipractice_22-07-2026/RegistrationPage";
+
 
 
 function App() {
@@ -140,6 +156,22 @@ function App() {
   <Route path="Map"element={<Map/>}/>
   <Route path="FilterMap"element={<FilterMap/>}/>
       <Route path="NoteApp"element={<NotesApp/>}/>
+ <Route path="DynamicForm"element={<DynamicForm/>}/>
+ <Route path="AddSkill"element={<AddSkill/>}/>
+ <Route path="RemoveSkill"element={<RemoveSkill/>}/>
+  <Route path="TextField"element={<TextField/>}/>
+  <Route path="TextArea"element={<TextArea/>}/>
+  <Route path="Dropdown"element={<Dropdown/>}/>
+  <Route path="RadioButtons"element={<RadioButtons/>}/>
+    <Route path="SingleCheckbox"element={<SingleCheckbox/>}/>
+        <Route path="MultipleCheckbox"element={<MultipleCheckbox/>}/>
+ <Route path="FileInput"element={<FileInput/>}/>
+ <Route path="FormExample"element={<FormExample/>}/>
+ <Route path="FormReal"element={<FormReal/>}/>
+ <Route path="FormErrors"element={<FormErrors/>}/>
+ <Route path="SingleHandler"element={<SingleHandler/>}/>
+ <Route path="RegistrationPage"element={<RegistrationPage/>}/>
+ 
 
 
 
