@@ -55,6 +55,17 @@ import MultipleDependency from "./components/useeffect_21-07-2026/MultipleDepend
 import FetchDataDependency from "./components/useeffect_21-07-2026/FetchDataDependency";
 import Cleanup from "./components/useeffect_21-07-2026/Cleanup";
 import TimeCleaner from "./components/useeffect_21-07-2026/TimeCleaner";
+import EventListener from "./components/useeffect_21-07-2026/EventListener";
+import ParentToggle from "./components/useeffect_21-07-2026/ParentToggle";
+import FetchApi from "./components/useeffect_21-07-2026/FetchApi";
+import FetchAsync from "./components/useeffect_21-07-2026/FetchAsync";
+import AxiosGet from "./components/useeffect_21-07-2026/AxiosGet";
+import LoadingEffect from "./components/useeffect_21-07-2026/LoadingEffect";
+import ErrorHandlingEffect from "./components/useeffect_21-07-2026/ErrorHandlingEffect";
+import RealExample from "./components/useeffect_21-07-2026/RealExample";
+import Map from "./components/useeffect_21-07-2026/Map";
+import FilterMap from "./components/useeffect_21-07-2026/FilterMap";
+import NotesApp from "./components/useeffect_21-07-2026/NoteApp";
 
 
 function App() {
@@ -118,6 +129,19 @@ function App() {
   <Route path="FetchDataDependency"element={<FetchDataDependency/>}/>
   <Route path="Cleanup"element={<Cleanup/>}/>
   <Route path="TimeCleaner"element={<TimeCleaner/>}/>
+  <Route path="EventListener"element={<EventListener/>}/>
+  <Route path="ParentToggle"element={<ParentToggle/>}/>
+  <Route path="FetchApi"element={<FetchApi/>}/>
+  <Route path="FetchAsync"element={<FetchAsync/>}/>
+  <Route path="AxiosGet"element={<AxiosGet/>}/>
+  <Route path="LoadingEffect"element={<LoadingEffect/>}/>
+  <Route path="ErrorHandlingEffect"element={<ErrorHandlingEffect/>}/>
+  <Route path="RealExample"element={<RealExample/>}/>
+  <Route path="Map"element={<Map/>}/>
+  <Route path="FilterMap"element={<FilterMap/>}/>
+      <Route path="NoteApp"element={<NotesApp/>}/>
+
+
 
 
             </Routes>
