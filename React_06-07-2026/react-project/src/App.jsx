@@ -84,6 +84,13 @@ import RegistrationPage from "./components/dynamicform_22-07-2026/minipractice_2
 import Hoc from "./pages_07-07-2026/hoc_23-07-2026/Hoc";
 import Composition from "./components/hoc_23-07-2026/Composition";
 import Counter from "./components/hoc_23-07-2026/Counter";
+import AxiosHome from "./components/reactmemo_27-7-2026/AxiosHome";
+import Parent from "./components/reactmemo_27-7-2026/Parent";
+import ReactHome from "./components/reactmeme_27-07-2026/ReactHome";
+import EmployeeHome from "./components/minitask_27-07-2026/EmployeeHome";
+import Home from "./pages_07-07-2026/minitask_24-07-2026/Home";
+
+
 
 
 
@@ -176,6 +183,12 @@ function App() {
  <Route path="RegistrationPage"element={<RegistrationPage/>}/>
   <Route path="Composition"element={<Composition/>}/>
   <Route path="Counter"element={<Counter/>}/>
+  <Route path="AxiosHome"element={<AxiosHome/>}/>
+  <Route path="Parent"element={<Parent/>}/>
+  <Route path="ReactHome"element={<ReactHome/>}/>
+  <Route path="EmployeeHome"element={<EmployeeHome/>}/>
+  
+  <Route path="Home"element={<Home/>}/>
 
 
 

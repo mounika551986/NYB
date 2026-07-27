@@ -5,7 +5,6 @@ import DepartmentFilter from "../../components/Employee_17-07-2026/DepartmentFil
 import Loader from "../../components/Employee_17-07-2026/Loader";
 import EmployeeList from "../../components/Employee_17-07-2026/EmployeeList";
 import { EmployeeContext } from "../../context_17-07-2026/EmployeeContext";
-import { API_URL } from "../../services_17-07-2026/api";
 
 function HomePage() {
   const {
