@@ -81,6 +81,9 @@ import FormReal from "./components/dynamicform_22-07-2026/FormReal";
 import FormErrors from "./components/dynamicform_22-07-2026/FormErrors";
 import SingleHandler from "./components/dynamicform_22-07-2026/SingleHandler";
 import RegistrationPage from "./components/dynamicform_22-07-2026/minipractice_22-07-2026/RegistrationPage";
+import Hoc from "./pages_07-07-2026/hoc_23-07-2026/Hoc";
+import Composition from "./components/hoc_23-07-2026/Composition";
+import Counter from "./components/hoc_23-07-2026/Counter";
 
 
 
@@ -171,7 +174,9 @@ function App() {
  <Route path="FormErrors"element={<FormErrors/>}/>
  <Route path="SingleHandler"element={<SingleHandler/>}/>
  <Route path="RegistrationPage"element={<RegistrationPage/>}/>
- 
+  <Route path="Composition"element={<Composition/>}/>
+  <Route path="Counter"element={<Counter/>}/>
+
 
 
 
