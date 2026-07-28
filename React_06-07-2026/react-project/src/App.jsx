@@ -89,6 +89,18 @@ import Parent from "./components/reactmemo_27-7-2026/Parent";
 import ReactHome from "./components/reactmeme_27-07-2026/ReactHome";
 import EmployeeHome from "./components/minitask_27-07-2026/EmployeeHome";
 import Home from "./pages_07-07-2026/minitask_24-07-2026/Home";
+import ReactFragment from "./components/reactfragments_28-07-2026/ReactFragment";
+import ReactDetails from "./components/reactfragments_28-07-2026/ReactDetails";
+import Message from "./components/reacthoc_28-07-2026/Message";
+import AuthDashboard from "./components/reacthoc_28-07-2026/AuthDashboard";
+import AppHoc from "./components/reacthoc_28-07-2026/AppHoc";
+import ComponentComposition from "./components/reacthoc_28-07-2026/ComponentComposition";
+import WithFragment from "./components/reactfragments_28-07-2026/WithFragment";
+import Employee from "./components/customhook_28-07-2026/Employee";
+import ContactForm from "./components/customhook_28-07-2026/ContactForm";
+import WindowInfo from "./customhook_28-07-2026/WindowInfo";
+import ThemeComponent from "./components/customhook_28-07-2026/ThemeComponent";
+import Project from "./components/miniproject_28-07-2026/Project";
 
 
 
@@ -187,8 +199,19 @@ function App() {
   <Route path="Parent"element={<Parent/>}/>
   <Route path="ReactHome"element={<ReactHome/>}/>
   <Route path="EmployeeHome"element={<EmployeeHome/>}/>
-  
   <Route path="Home"element={<Home/>}/>
+  <Route path="ReactFragment"element={<ReactFragment/>}/>
+  <Route path="ReactDetails"element={<ReactDetails/>}/>
+  <Route path="Message"element={<Message/>}/>
+  <Route path="AuthDashboard"element={<AuthDashboard/>}/>
+  <Route path="AppHoc"element={<AppHoc/>}/>
+  <Route path="ComponentComposition"element={<ComponentComposition/>}/>
+  <Route path="WithFragment"element={<WithFragment/>}/>
+  <Route path="Employee"element={<Employee/>}/>
+  <Route path="ContactForm"element={<ContactForm/>}/>
+  <Route path="WindowInfo"element={<WindowInfo/>}/>
+  <Route path="ThemeComponent"element={<ThemeComponent/>}/>
+  <Route path="Project"element={<Project/>}/>
 
 
 
