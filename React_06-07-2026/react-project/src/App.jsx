@@ -101,6 +101,15 @@ import ContactForm from "./components/customhook_28-07-2026/ContactForm";
 import WindowInfo from "./customhook_28-07-2026/WindowInfo";
 import ThemeComponent from "./components/customhook_28-07-2026/ThemeComponent";
 import Project from "./components/miniproject_28-07-2026/Project";
+import NormalComponent from "./components/purecomponent_29-07-2026/NormalComponent";
+import PureComp from "./components/purecomponent_29-07-2026/PureCompo";
+import PureComponent from "./components/purecomponent_29-07-2026/PureComponent";
+import PureEmployee from "./components/purecomponent_29-07-2026/PureEmployee";
+import ChildReact from "./components/Reactmemo_29-07-2026/ChildReact";
+import WithoutMemo from "./components/usememo_29-07-2026/WithoutMemo";
+import WithuseMemo from "./components/usememo_29-07-2026/WithuseMemo";
+import UseCallback from "./components/callback_29-07-2026/UseCallback";
+import Miniproject from "./components/miniproject_29-07-2026/Miniproject";
 
 
 
@@ -212,6 +221,14 @@ function App() {
   <Route path="WindowInfo"element={<WindowInfo/>}/>
   <Route path="ThemeComponent"element={<ThemeComponent/>}/>
   <Route path="Project"element={<Project/>}/>
+  <Route path="NormalComponent"element={<NormalComponent/>}/>
+  <Route path="PureComp"element={<PureComp/>}/>
+  <Route path="PureComponent"element={<PureComponent/>}/>
+  <Route path="PureEmployee"element={<PureEmployee/>}/>
+  <Route path="ChildReact"element={<ChildReact/>}/>
+  <Route path="WithoutMemo"element={<WithoutMemo/>}/>
+  <Route path="WithuseMemo"element={<WithuseMemo/>}/>
+  <Route path="Miniproject"element={<Miniproject/>}/>
 
 
 
