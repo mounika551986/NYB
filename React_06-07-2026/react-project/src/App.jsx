@@ -122,6 +122,18 @@ import FocusEvent from "./components/eventbinding_30-07-2026/FocusEvent";
 import BlurEvent from "./components/eventbinding_30-07-2026/BlurEvent";
 import ClassBinding from "./components/eventbinding_30-07-2026/ClassBinding";
 import Minitask from "./components/minitask_30-07-2026/Minitask";
+import SimpleList from "./components/listrendering_31-07-2026/SimpleList";
+import ArrayObject from "./components/listrendering_31-07-2026/ArrayObject";
+import KeyProp from "./components/listrendering_31-07-2026/KeyProp";
+import NestedObject from "./components/listrendering_31-07-2026/NestedObject";
+import NestedMap from "./components/listrendering_31-07-2026/NestedMap";
+import RenderingList from "./components/listrendering_31-07-2026/RenderingList";
+import PropsDestructing from "./components/destructuring_31-07-2026/PropsDestructing"
+import CounterState from "./components/destructuring_31-07-2026/CounterState";
+import SingleLazy from "./components/lazyloading_31-07-2026/SingleLazy";
+import MultipleLazy from "./components/lazyloading_31-07-2026/MultipleLazy";
+import Mini from "./pages_07-07-2026/miniproject_31-07-2026/Mini";
+
 
 
 
@@ -253,8 +265,17 @@ function App() {
   <Route path="BlurEvent"element={<BlurEvent/>}/>
   <Route path="ClassBinding"element={<ClassBinding/>}/>
   <Route path="Minitask"element={<Minitask/>}/>
-
-
+  <Route path="SimpleList"element={<SimpleList/>}/>
+  <Route path="KeyProp"element={<KeyProp/>}/>
+  <Route path="ArrayObject"element={<ArrayObject/>}/>
+  <Route path="NestedObject"element={<NestedObject/>}/>
+  <Route path="NestedMap"element={<NestedMap/>}/>
+  <Route path="rendering list"element={<RenderingList/>}/>
+ <Route path="PropsDestructing"element={<PropsDestructing/>}/>
+ <Route path="CounterState"element={<CounterState/>}/>
+<Route path="SingleLazy" element={<SingleLazy/>}/>
+<Route path="MultipleLazy" element={<MultipleLazy/>}/>
+<Route path="Mini" element ={<Mini/>}/>
 
 
 
