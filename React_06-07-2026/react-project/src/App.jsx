@@ -110,6 +110,18 @@ import WithoutMemo from "./components/usememo_29-07-2026/WithoutMemo";
 import WithuseMemo from "./components/usememo_29-07-2026/WithuseMemo";
 import UseCallback from "./components/callback_29-07-2026/UseCallback";
 import Miniproject from "./components/miniproject_29-07-2026/Miniproject";
+import ReactModal from "./components/reactportals_30-07-2026/ReactModal";
+import EventFunction from "./components/eventbinding_30-07-2026/EventFunction";
+import InlineEvent from "./components/eventbinding_30-07-2026/InlineEvent";
+import PassParameter from "./components/eventbinding_30-07-2026/PassParameter";
+import MultipleParameter from "./components/eventbinding_30-07-2026/MultipleParameter";
+import ClickEvent from "./components/eventbinding_30-07-2026/ClickEvent";
+import ChangeEvent from "./components/eventbinding_30-07-2026/ChangeEvent";
+import SubmitEvent from "./components/eventbinding_30-07-2026/SubmitEvent";
+import FocusEvent from "./components/eventbinding_30-07-2026/FocusEvent";
+import BlurEvent from "./components/eventbinding_30-07-2026/BlurEvent";
+import ClassBinding from "./components/eventbinding_30-07-2026/ClassBinding";
+import Minitask from "./components/minitask_30-07-2026/Minitask";
 
 
 
@@ -229,6 +241,19 @@ function App() {
   <Route path="WithoutMemo"element={<WithoutMemo/>}/>
   <Route path="WithuseMemo"element={<WithuseMemo/>}/>
   <Route path="Miniproject"element={<Miniproject/>}/>
+  <Route path="ReactModal"element={<ReactModal/>}/>
+  <Route path="EventFunction"element={<EventFunction/>}/>
+  <Route path="InlineEvent"element={<InlineEvent/>}/>
+  <Route path="PassParameter"element={<PassParameter/>}/>
+  <Route path="MultipleParameter"element={<MultipleParameter/>}/>
+  <Route path="ClickEvent"element={<ClickEvent/>}/>
+  <Route path="ChangeEvent"element={<ChangeEvent/>}/>
+  <Route path="SubmitEvent"element={<SubmitEvent/>}/>
+  <Route path="FocusEvent"element={<FocusEvent/>}/>
+  <Route path="BlurEvent"element={<BlurEvent/>}/>
+  <Route path="ClassBinding"element={<ClassBinding/>}/>
+  <Route path="Minitask"element={<Minitask/>}/>
+
 
 
 
