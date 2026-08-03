@@ -133,6 +133,21 @@ import CounterState from "./components/destructuring_31-07-2026/CounterState";
 import SingleLazy from "./components/lazyloading_31-07-2026/SingleLazy";
 import MultipleLazy from "./components/lazyloading_31-07-2026/MultipleLazy";
 import Mini from "./pages_07-07-2026/miniproject_31-07-2026/Mini";
+import RouterBrowser from "./components/router_03-08-2026/RouterBrowser";
+import Navbar from "./components/router_03-08-2026/Navbar";
+import AccessParameter from "./components/router_03-08-2026/AccessParameter";
+import User from "./components/router_03-08-2026/User";
+import Product from "./components/clientside_03-08-2026/Product";
+import ProductDetails from "./components/clientside_03-08-2026/ProductDetails";
+import ReactNav from "./pages_07-07-2026/reactrouter_03-08-2026/ReactNav";
+import ReactContact from "./pages_07-07-2026/reactrouter_03-08-2026/ReactContact";
+import ReactAbout from "./pages_07-07-2026/reactrouter_03-08-2026/ReactAbout";
+import MiniNavbar from "./components/minitask_03-08-2026/MiniNavbar";
+import MiniHome from "./components/minitask_03-08-2026/MiniHome";
+import MiniAbout from "./components/minitask_03-08-2026/MiniAbout";
+import Services from "./components/minitask_03-08-2026/Services";
+import Contact from "./components/minitask_03-08-2026/Contact";
+
 
 
 
@@ -276,6 +291,21 @@ function App() {
 <Route path="SingleLazy" element={<SingleLazy/>}/>
 <Route path="MultipleLazy" element={<MultipleLazy/>}/>
 <Route path="Mini" element ={<Mini/>}/>
+<Route path="RouterBrowser" element ={<RouterBrowser/>}/>
+<Route path="Navbar" element ={<Navbar/>}/>
+<Route path="AccessParameter" element ={<AccessParameter/>}/>
+<Route path="/user/:id" element={<User />} />
+<Route path="/product" element={<Product />} />
+<Route path="/products/:id" element={<ProductDetails />} />
+<Route path="ReactNav" element ={<ReactNav/>}/>
+<Route path="ReactContact" element ={<ReactContact/>}/>
+<Route path="ReactAbout" element ={<ReactAbout/>}/>
+<Route path="ReactHome" element ={<ReactHome/>}/>
+<Route path="MiniNavbar" element ={<MiniNavbar/>}/>
+<Route path="MiniHome" element ={<MiniHome/>}/>
+<Route path="MiniAbout" element ={<MiniAbout/>}/>
+<Route path="Services" element ={<Services/>}/>
+<Route path="Contact" element ={<Contact/>}/>
 
 
 
