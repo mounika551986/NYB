@@ -1,0 +1,23 @@
+import { useNavigate } from "react-router-dom";
+
+function NaviGoback() {
+
+    const navigate = useNavigate();
+
+    return (
+
+        <div>
+
+            <h2>About Page</h2>
+
+            <button onClick={() => navigate(-1)}>
+                Back
+            </button>
+
+        </div>
+
+    );
+
+}
+
+export default NaviGoback;

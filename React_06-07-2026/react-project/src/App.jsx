@@ -147,6 +147,28 @@ import MiniHome from "./components/minitask_03-08-2026/MiniHome";
 import MiniAbout from "./components/minitask_03-08-2026/MiniAbout";
 import Services from "./components/minitask_03-08-2026/Services";
 import Contact from "./components/minitask_03-08-2026/Contact";
+import NestedDashboard from "./components/nestedroutes_04-08-2026/NestedDashboard";
+import NestedReport from "./components/nestedroutes_04-08-2026/NestedReports";
+import NestedSettings from "./components/nestedroutes_04-08-2026/NestedSettings";
+import NestedProfile from "./components/nestedroutes_04-08-2026/NestedProfile";
+import DynamicHome from "./components/nestedroutes_04-08-2026/DynamicHome";
+import UserDetails from "./components/nestedroutes_04-08-2026/UserDetails";
+import ParamUse from "./components/nestedroutes_04-08-2026/ParamUse";
+import NaviHome from "./components/navigate_04-08-2026/Navi.Home";
+import NaviAbout from "./components/navigate_04-08-2026/NaviAbout";
+import NaviDashboard from "./components/navigate_04-08-2026/NaviDashboard";
+import NaviLogin from "./components/navigate_04-08-2026/NaviLogin";
+import NaviGoback from "./components/navigate_04-08-2026/NaviGoback";
+import NaviRegister from "./components/navigate_04-08-2026/NaviRegister";
+import NaviCreate from "./components/navigate_04-08-2026/NaviCreate";
+import PassLink from "./components/passingdataparameter_04-08-2026/PassLink";
+import PassNavigate from "./components/passingdataparameter_04-08-2026/PassNavigate";
+import PassContact from "./components/passingdataparameter_04-08-2026/PassContact";
+import PassUrl from "./components/passingdataparameter_04-08-2026/PassUrl";
+import UserUrl from "./components/passingdataparameter_04-08-2026/UserUrl";
+import PassQuery from "./components/passingdataparameter_04-08-2026/PassQuery";
+import QueryPass from "./components/passingdataparameter_04-08-2026/QueryPass";
+import MiniprojectNav from "./components/minitask_04-08-2026/MiniprojectNav";
 
 
 
@@ -306,6 +328,31 @@ function App() {
 <Route path="MiniAbout" element ={<MiniAbout/>}/>
 <Route path="Services" element ={<Services/>}/>
 <Route path="Contact" element ={<Contact/>}/>
+<Route path="NestedDashboard" element ={<NestedDashboard/>}/>
+<Route path="NestedReport" element ={<NestedReport/>}/>
+<Route path="NestedSettings" element ={<NestedSettings/>}/>
+<Route path="NestedProfile" element ={<NestedProfile/>}/>
+<Route path="DynamicHome" element ={<DynamicHome/>}/>
+<Route path="UserDetails" element ={<UserDetails/>}/>
+<Route path="/User/:id" element ={<ParamUse/>}/>
+<Route path="NaviHome" element ={<NaviHome/>}/>
+<Route path="NaviAbout" element ={<NaviAbout/>}/>
+<Route path="NaviDashboard" element ={<NaviDashboard/>}/>
+<Route path="NaviLogin" element ={<NaviLogin/>}/>
+<Route path="NaviGoback" element ={<NaviGoback/>}/>
+<Route path="NaviRegister" element ={<NaviRegister/>}/>
+<Route path="NaviCreate" element ={<NaviCreate/>}/>
+<Route path="PassLink" element ={<PassLink/>}/>
+<Route path="PassNavigate" element ={<PassNavigate/>}/>
+<Route path="PassContact" element ={<PassContact/>}/>
+<Route path="PassUrl" element ={<PassUrl/>}/>
+<Route path="UserUrl" element ={<UserUrl/>}/>
+<Route path="PassQuery" element ={<PassQuery/>}/>
+<Route path="QueryPass" element ={<QueryPass/>}/>
+<Route path="MiniprojectNav"element={<MiniprojectNav/>}/>
+
+
+
 
 
 
