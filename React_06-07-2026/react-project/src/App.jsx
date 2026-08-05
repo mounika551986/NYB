@@ -169,6 +169,7 @@ import UserUrl from "./components/passingdataparameter_04-08-2026/UserUrl";
 import PassQuery from "./components/passingdataparameter_04-08-2026/PassQuery";
 import QueryPass from "./components/passingdataparameter_04-08-2026/QueryPass";
 import MiniprojectNav from "./components/minitask_04-08-2026/MiniprojectNav";
+import Webpack from "./components/webpack_05-08-2026/Webpack";
 
 
 
@@ -350,6 +351,7 @@ function App() {
 <Route path="PassQuery" element ={<PassQuery/>}/>
 <Route path="QueryPass" element ={<QueryPass/>}/>
 <Route path="MiniprojectNav"element={<MiniprojectNav/>}/>
+<Route path="Webpack" element ={<Webpack/>}/>
 
 
 
