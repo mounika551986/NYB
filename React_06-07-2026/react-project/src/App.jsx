@@ -170,6 +170,26 @@ import PassQuery from "./components/passingdataparameter_04-08-2026/PassQuery";
 import QueryPass from "./components/passingdataparameter_04-08-2026/QueryPass";
 import MiniprojectNav from "./components/minitask_04-08-2026/MiniprojectNav";
 import Webpack from "./components/webpack_05-08-2026/Webpack";
+import BrContact from "./components/reactapplication_07-08-2026/browserrouting/BrContact";
+import BrHome from "./components/reactapplication_07-08-2026/browserrouting/BrHome";
+import BrProfile from "./components/reactapplication_07-08-2026/browserrouting/BrProfile";
+import BrNav from "./components/reactapplication_07-08-2026/browserrouting/BrNav";
+import UseNavigate from "./components/reactapplication_07-08-2026/usenavigate/UseNavigate";
+import UseAbout from "./components/reactapplication_07-08-2026/usenavigate/UseAbout";
+import DynamicDashboard from "./components/reactapplication_07-08-2026/browserrouting/DynamicDashboard";
+import MiNavbar from "./components/miniproject_07-08-2026/MiNavbar";
+import MiFooter from "./components/miniproject_07-08-2026/MiFooter";
+import MiLayout from "./components/miniproject_07-08-2026/MiLayout";
+import MiProtected from "./components/miniproject_07-08-2026/MiProtected";
+import NavigationFlow from "./pages_07-07-2026/miniproject_07-08-2026/NavigationFlow";
+import MiAbout from "./pages_07-07-2026/miniproject_07-08-2026/MiAbout";
+import MiDashboard from "./pages_07-07-2026/miniproject_07-08-2026/MiDashboard";
+import MiEmployees from "./pages_07-07-2026/miniproject_07-08-2026/MiEmployees";
+import MiEmployeeDetails from "./pages_07-07-2026/miniproject_07-08-2026/MiEmployeeDetails";
+import MiHome from "./pages_07-07-2026/miniproject_07-08-2026/MiHome";
+import MiLogin from "./pages_07-07-2026/miniproject_07-08-2026/MILogin";
+import MiNotFound from "./pages_07-07-2026/miniproject_07-08-2026/MiNotFound";
+import MiSettings from "./pages_07-07-2026/miniproject_07-08-2026/MiSettings";
 
 
 
@@ -352,6 +372,32 @@ function App() {
 <Route path="QueryPass" element ={<QueryPass/>}/>
 <Route path="MiniprojectNav"element={<MiniprojectNav/>}/>
 <Route path="Webpack" element ={<Webpack/>}/>
+<Route path="BrContact" element ={<BrContact/>}/>
+<Route path="BrHome" element ={<BrHome/>}/>
+<Route path="BrProfile" element ={<BrProfile/>}/>
+<Route path="BrNav" element ={<BrNav/>}/>
+<Route path="UseNavigate" element ={<UseNavigate/>}/>
+<Route path="UseAbout" element ={<UseAbout/>}/>
+<Route path="DynamicDashboard" element ={<DynamicDashboard/>}/>
+<Route path="MiNavbar" element ={<MiNavbar/>}/>
+<Route path="MiFooter" element ={<MiFooter/>}/>
+<Route path="MiLayout" element ={<MiLayout/>}/>
+<Route path="MiProtected" element ={<MiProtected/>}/>
+<Route path="NavigationFlow" element ={<NavigationFlow/>}/>
+<Route path="MiAbout" element ={<MiAbout/>}/>
+<Route path="MiDashboard" element ={<MiDashboard/>}/>
+<Route path="MiEmployees" element ={<MiEmployees/>}/>
+<Route path="MiEmployeeDetails" element ={<MiEmployeeDetails/>}/>
+<Route path="MiHome" element ={<MiHome/>}/>
+<Route path="MiLogin" element ={<MiLogin/>}/>
+<Route path="MiAbout" element ={<MiAbout/>}/>
+<Route path="MiNotFound" element ={<MiNotFound/>}/>
+<Route path="MiSettings" element ={<MiSettings/>}/>
+
+
+
+
+
 
 
 

@@ -5,7 +5,7 @@ module.exports = {
 
   mode: "development",
 
-  entry: "./src/05-08-2026/index.js",
+  entry: "./src/07-08-2026/index.js",
 
   output: {
     filename: "bundle.js",
@@ -37,7 +37,7 @@ module.exports = {
 
   devServer: {
     static: "./dist",
-    port: 5050,
+    port: 3080,
     open: true,
     hot: true,
   },
