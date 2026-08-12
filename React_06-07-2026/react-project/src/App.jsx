@@ -198,6 +198,8 @@ import InputExample from "./components/reacthook_11-08-2026/UseInputExample";
 import UseInputExample from "./components/reacthook_11-08-2026/UseInputExample";
 import CompleteExample from "./components/reacthook_11-08-2026/CompleteExample";
 import ReactFundamentals from "./pages_07-07-2026/reactfundamentals_11-08-2026/ReactFundamentals";
+import ContextPage_12 from "./pages_07-07-2026/contextapipage_12-08-2026/ContextPage_12";
+import ReduxTool_12 from "./components/contextapi_12-08-2026/ReduxTool_12";
 
 
 
@@ -408,6 +410,8 @@ function App() {
 <Route path="UseInputExample" element ={<UseInputExample/>}/>
 <Route path="CompleteExample" element ={<CompleteExample/>}/>
 <Route path="ReactFundamentals" element ={<ReactFundamentals/>}/>
+<Route path="ContextPage_12" element ={<ContextPage_12/>}/>
+<Route path="ReduxTool_12" element ={<ReduxTool_12/>}/>
 
 
 
