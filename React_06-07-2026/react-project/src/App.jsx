@@ -190,6 +190,14 @@ import MiHome from "./pages_07-07-2026/miniproject_07-08-2026/MiHome";
 import MiLogin from "./pages_07-07-2026/miniproject_07-08-2026/MILogin";
 import MiNotFound from "./pages_07-07-2026/miniproject_07-08-2026/MiNotFound";
 import MiSettings from "./pages_07-07-2026/miniproject_07-08-2026/MiSettings";
+import UseState11 from "./components/reacthook_11-08-2026/UseState11";
+import UseEffect11 from "./components/reacthook_11-08-2026/UseEffect11";
+import LoadingErrorHandling from "./components/reacthook_11-08-2026/LoadingErrorHandling";
+import GetData from "./components/reacthook_11-08-2026/GetData";
+import InputExample from "./components/reacthook_11-08-2026/UseInputExample";
+import UseInputExample from "./components/reacthook_11-08-2026/UseInputExample";
+import CompleteExample from "./components/reacthook_11-08-2026/CompleteExample";
+import ReactFundamentals from "./pages_07-07-2026/reactfundamentals_11-08-2026/ReactFundamentals";
 
 
 
@@ -393,6 +401,16 @@ function App() {
 <Route path="MiAbout" element ={<MiAbout/>}/>
 <Route path="MiNotFound" element ={<MiNotFound/>}/>
 <Route path="MiSettings" element ={<MiSettings/>}/>
+<Route path="UseState11" element ={<UseState11/>}/>
+<Route path="UseEffect11" element ={<UseEffect11/>}/>
+<Route path="LoadingErrorHandling" element ={<LoadingErrorHandling/>}/>
+<Route path="GetData" element ={<GetData/>}/>
+<Route path="UseInputExample" element ={<UseInputExample/>}/>
+<Route path="CompleteExample" element ={<CompleteExample/>}/>
+<Route path="ReactFundamentals" element ={<ReactFundamentals/>}/>
+
+
+
 
 
 
