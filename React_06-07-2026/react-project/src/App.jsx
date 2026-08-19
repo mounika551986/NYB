@@ -200,6 +200,12 @@ import CompleteExample from "./components/reacthook_11-08-2026/CompleteExample";
 import ReactFundamentals from "./pages_07-07-2026/reactfundamentals_11-08-2026/ReactFundamentals";
 import ContextPage_12 from "./pages_07-07-2026/contextapipage_12-08-2026/ContextPage_12";
 import ReduxTool_12 from "./components/contextapi_12-08-2026/ReduxTool_12";
+import ReduxCart from "./components/cart_19-08-2026/ReduxCart";
+import Users from "./components/apiintegration_19-08-2026/Users";
+import GetFetch from "./components/apiintegration_19-08-2026/GetFetch";
+import FetchUsers from "./components/apiintegration_19-08-2026/FetchUsers";
+import GetAxios from "./components/apiintegration_19-08-2026/GetAxios";
+import PageContext from "./pages_07-07-2026/contexpage_19-08-2026/PageContext";
 
 
 
@@ -412,6 +418,14 @@ function App() {
 <Route path="ReactFundamentals" element ={<ReactFundamentals/>}/>
 <Route path="ContextPage_12" element ={<ContextPage_12/>}/>
 <Route path="ReduxTool_12" element ={<ReduxTool_12/>}/>
+<Route path="ReduxCart" element ={<ReduxCart/>}/>
+<Route path="Users" element ={<Users/>}/>
+<Route path="GetFetch" element ={<GetFetch/>}/>
+<Route path="FetchUsers" element ={<FetchUsers/>}/>
+<Route path="GetAxios" element ={<GetAxios/>}/>
+<Route path="PageContext" element ={<PageContext/>}/>
+
+
 
 
 
