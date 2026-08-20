@@ -206,6 +206,20 @@ import GetFetch from "./components/apiintegration_19-08-2026/GetFetch";
 import FetchUsers from "./components/apiintegration_19-08-2026/FetchUsers";
 import GetAxios from "./components/apiintegration_19-08-2026/GetAxios";
 import PageContext from "./pages_07-07-2026/contexpage_19-08-2026/PageContext";
+import ReactParent from "./components/react_20-08-2026/reactmemo/ReactParent";
+import UsememoParent from "./components/react_20-08-2026/usememo/UsememoParent";
+import UseCall from "./components/react_20-08-2026/usecallback/UseCall";
+import Lazy from "./components/react_20-08-2026/lazyloading/Lazy";
+import HomeLazy from "./components/react_20-08-2026/lazyloading/HomeLazy";
+import AboutLazy from "./components/react_20-08-2026/lazyloading/AboutLazy";
+import CounterFn from "./components/react_20-08-2026/functionalcomponent/CounterFn";
+import ReactControlled from "./components/reactforms_20-08-2026/ReactControlled";
+import ReactUncontrolled from "./components/reactforms_20-08-2026/ReactUncontrolled";
+import Registration from "./components/reactforms_20-08-2026/ForRegistration";
+import ForRegistration from "./components/reactforms_20-08-2026/ForRegistration";
+import ForValidation from "./components/reactforms_20-08-2026/ForValidation";
+import SkillsForm from "./components/reactforms_20-08-2026/SkillsForm";
+import MiniReact from "./components/react_20-08-2026/minitask/MiniReact";
 
 
 
@@ -424,6 +438,20 @@ function App() {
 <Route path="FetchUsers" element ={<FetchUsers/>}/>
 <Route path="GetAxios" element ={<GetAxios/>}/>
 <Route path="PageContext" element ={<PageContext/>}/>
+<Route path="ReactParent" element ={<ReactParent/>}/>
+<Route path="UsememoParent" element ={<UsememoParent/>}/>
+<Route path="UseCall" element ={<UseCall/>}/>
+<Route path="lazy" element ={<Lazy/>}/>
+<Route path="Homelazy" element ={<HomeLazy/>}/>
+<Route path="Aboutlazy" element ={<AboutLazy/>}/>
+<Route path="CounterFn" element ={<CounterFn/>}/>
+<Route path="ReactControlled" element ={<ReactControlled/>}/>
+<Route path="ReactUncontrolled" element ={<ReactUncontrolled/>}/>
+<Route path="ForRegistration" element ={<ForRegistration/>}/>
+<Route path="ForValidation" element ={<ForValidation/>}/>
+<Route path="SkillsForm" element ={<SkillsForm/>}/>
+<Route path="MiniReact" element ={<MiniReact/>}/>
+
 
 
 
