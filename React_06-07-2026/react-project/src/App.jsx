@@ -220,6 +220,10 @@ import ForRegistration from "./components/reactforms_20-08-2026/ForRegistration"
 import ForValidation from "./components/reactforms_20-08-2026/ForValidation";
 import SkillsForm from "./components/reactforms_20-08-2026/SkillsForm";
 import MiniReact from "./components/react_20-08-2026/minitask/MiniReact";
+import DynamicRounting from "./components/routing_21-08-2026/dynamicrouting/DynamicRouting";
+import DynamicProduct from "./components/routing_21-08-2026/dynamicrouting/DynamicProduct";
+import ProductDetail from "./components/routing_21-08-2026/ProductDetail";
+
 
 
 
@@ -451,6 +455,10 @@ function App() {
 <Route path="ForValidation" element ={<ForValidation/>}/>
 <Route path="SkillsForm" element ={<SkillsForm/>}/>
 <Route path="MiniReact" element ={<MiniReact/>}/>
+<Route path="DynamicRounting" element ={<DynamicRounting/>}/>
+<Route path="DynamicProduct" element ={<DynamicProduct/>}/>
+<Route path="ProductDetail" element ={<ProductDetail/>}/>
+
 
 
 
